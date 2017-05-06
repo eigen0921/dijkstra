@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine --config=jasmine.json"
+    "test": "jasmine --config=jasmine.json",
+    "start": "http-server src/ -o -c-1"
   },
   "repository": {
     "type": "git",
