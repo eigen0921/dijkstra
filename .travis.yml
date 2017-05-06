@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-  - "7"
   - "6"
   - "4"
 before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install libc6 -qq
+  - sudo apt-get update -y
+  - sudo apt-get install libcairo2-dev -y
+  - sudo apt-get install libjpeg-dev -y
+  - sudo apt-get install libgif-dev -y
 dist: trusty
