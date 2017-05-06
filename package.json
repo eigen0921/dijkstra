@@ -1,0 +1,22 @@
+{
+  "name": "dijkstra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eigen0921/dijkstra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eigen0921/dijkstra/issues"
+  },
+  "homepage": "https://github.com/eigen0921/dijkstra#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
